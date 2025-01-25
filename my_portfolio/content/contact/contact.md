@@ -1,0 +1,49 @@
+---
+title: "Contact"
+draft: false
+url: "/contact/"
+section: "contact"
+markup: "html"
+---
+
+<section class="contact">
+  <h2>Contact Information</h2>
+  <p>
+    Feel free to get in touch with me. Here's how you can reach out:
+  </p>
+
+  <ul>
+    <li><strong>Email:</strong> test@educative.io </li>
+    <li><strong>Phone:</strong> 1234 1234 1234 </li>
+  </ul>
+
+  <h3>Social Links</h3>
+
+  <ul class="social-media">
+    <li><a href="https://www.facebook.com/your-profile" target="_blank">Facebook</a></li>
+    <li><a href="https://www.twitter.com/your-profile" target="_blank">Twitter</a></li>
+    <li><a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
+  </ul>
+
+  <h2>Contact Form</h2>
+  <div class="contact-form">
+    <form action="/" method="POST">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+
+      <button class="submit-button" type="submit">Submit</button>
+    </form>
+  </div>
+</section>

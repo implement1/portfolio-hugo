@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Portfolio</title>
+    <link>http://localhost:3000/</link>
+    <description>Recent content on My Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:3000/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:3000/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3000/about/</guid>
+      <description> About Me Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi suscipit quidem ullam voluptates repellendus explicabo placeat, expedita ratione saepe eaque dolorum sed deleniti, odit numquam, nostrum tempore quos corrupti rem. Skills Hugo Golang HTML CSS JavaScript Docker Interests Writing Cooking Driving Video Gaming Experience Educative 2021-2023 Software Architect Educative Software House 2019-2021 Hugo Developer Education Educative School 2020-2023 Bachelors in CS School 2 2018-2019 Kindergarden </description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:3000/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3000/contact/</guid>
+      <description> Contact Information Feel free to get in touch with me. Here&#39;s how you can reach out: Email: test@educative.io Phone: 1234 1234 1234 Social Links Facebook Twitter LinkedIn Contact Form Name: Email: Message: Submit </description>
+    </item>
+    <item>
+      <title>Homepage</title>
+      <link>http://localhost:3000/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3000/</guid>
+      <description> Kola Kouferidji DevOps Engineer </description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:3000/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3000/projects/</guid>
+      <description>Projects Here&#39;s a list of projects with titles, descriptions, and images: Bike Riders App A project description outlines the details of one project. Project Link Animal Welfare Platform A project description outlines the details of one project. Project Link Blockchain Application A project description outlines the details of one project. Project Link Ed-API A project description outlines the details of one project. Project Link Property App A project description outlines the details of one project.</description>
+    </item>
+  </channel>
+</rss>

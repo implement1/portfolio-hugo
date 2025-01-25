@@ -1,0 +1,32 @@
+baseURL = "http://localhost/"
+languageCode = "en-us"
+title = "My Portfolio"
+
+[params]
+about_sections = ["skills", "experience"]
+
+sectionPagesMenu = 'main'
+
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  identifier = "projects"
+  url = "/projects/"
+
+[[menu.main]]
+  name = "About"
+  weight = 3
+  identifier = "about"
+  url = "/about/"
+
+[[menu.main]]
+  name = "Contact"
+  weight = 4
+  identifier = "contact"
+  url = "/contact/"

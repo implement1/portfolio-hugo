@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <div class="homepage">
+        {{ range .Site.RegularPages }}
+            {{ if eq .Section "homepage" }}
+                <div class="homepage">
+                    {{ .Content }}
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+{{ end }}

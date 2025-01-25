@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <section>
+        {{ range .Site.RegularPages }}
+            {{ if eq .Section "contact" }}
+                <div class="project">
+                    {{ .Content }}
+                </div>
+            {{ end }}
+        {{ end }}
+    </section>
+{{ end }}
